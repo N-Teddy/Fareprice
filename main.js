@@ -71,7 +71,7 @@ document.getElementById('startBtn').addEventListener('click', () => {
                 L.latLng(taxiMarker.getLatLng()),
                 L.latLng(newPos)
             ],
-            routeWhileDragging: true,
+            enableHighAccuracy: true,
             show: false,
             addWaypoints: false,
 
